@@ -1,14 +1,12 @@
-# Instituto Atlântico's Cognitive Computing Bootcamp
+# Identifying Relevant Terms in Medical Records Through Natural Language Processing 💻
 
-This repository is comprised of several assigments from [Instituto Atlântico's Cognitive Computing Bootcamp](https://www.atlantico.com.br/academy-bootcamp/). Topics covered are machine learning, natural language processing and digital image processing.
+This repository is comprised of several assigments from [Instituto Atlântico's Cognitive Computing Bootcamp](https://www.atlantico.com.br/academy-bootcamp/). 
 
 Most of the coding is done using Python 3.
 
-In the following sections there is a short introduction about each project.
-
 ---
 
-## 1. Identifying Relevant Terms in Medical Records Through Natural Language Processing
+## Introduction 🔍
 
 This project provides automated identification of relevant terms in medical records by use of classical NLP algorithms.
 
@@ -34,50 +32,22 @@ Input texts are written in Portuguese.
 
 `python3 src/nlp/utils/downloads.py`
 
-
 5. Run the application entry point:
 
-`python3 app_nlp_project.py`
+`python3 main.py`
 
----
+## Result 📊
 
-## 2. Extracting Features from Images of Leaves
+**[Word Cloud](https://github.com/EmersonVeras/identifyMostRelevantTerms/tree/main/data/wordCloud.jpg)**
 
-This project aims to automate feature extraction from images of leaves, such as dimensions and area.
-
-All images are captured with a standard resolution of 8MP, and three segmentation algoritms are applied and have results confronted among them.
-
-1. Create a virtual environment:
-
-`python3 -m venv env`
-
-2. Activate it:
-
-`source env/bin/activate`
-
-3. Install the dependencies:
-
-`pip install -r requirements.txt`
-
-4. Install additional packages, if needed
-
-TODO no additional packages for now
+**[File with words and metrics](https://github.com/EmersonVeras/identifyMostRelevantTerms/tree/main/data/values.csv)**
 
 
-5. Run the application entry point:
+# Team
 
-`python3 app_pdi_project.py`
-
-
-# Team (**Squad 1**)
-
-| Team member                | Github        | Phone/Whats     |
-| -------------------------- | ------------- | --------------- |
-| Edson                      |               |                 |
-| Emerson                    |               |                 |
-| Felipe Araújo              | felipe-araujo |                 |
-| Paulo Vinicius P. Pinheiro | paulovpp      | (88)9 9723-6607 |
-| Rômulo                     | romulopm2     |                 |
-
-
-Project template: https://github.com/Alysonbnr/template_bootcamp
+| Team member                | Github        |
+| -------------------------- | ------------- | 
+| Emerson                    | EmersonVeras  | 
+| Felipe Araújo              | felipe-araujo | 
+| Paulo Vinicius P. Pinheiro | paulovpp      |
+| Rômulo                     | romulopm2     | 
